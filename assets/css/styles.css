@@ -329,7 +329,7 @@ a {
   padding: 17px 20px 24px;
 }
 
-.featured .item .title {
+.featured .item .title a {
   color: #000339;
   font-size: 2rem;
   font-style: normal;
