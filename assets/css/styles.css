@@ -337,6 +337,10 @@ a {
   line-height: 1; /* 100% */
 }
 
+.featured .item .title a:visited {
+  color: #000339;
+}
+
 .featured .item .desc {
   margin-top: 11px;
   color: #a3a6ab;
