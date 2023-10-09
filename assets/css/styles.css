@@ -96,6 +96,10 @@ a {
   font-weight: 500;
 }
 
+.navbar .action-link:hover {
+  text-decoration: underline;
+}
+
 .navbar .action-btn {
   padding: 13px 16px;
   margin-left: 18px;
@@ -110,7 +114,7 @@ a {
 }
 
 .hero .sub-title {
-  color: #687690;
+  color: #687691;
   font-size: 1.8rem;
   font-weight: 500;
   line-height: normal;
@@ -395,13 +399,15 @@ a {
   background-color: white;
   padding: 45px 22px 41px;
   width: 236px;
+  border-radius: 0px 0px 12px 12px;
+  box-shadow: 90px 85px 100px 0px rgba(0, 0, 0, 0.06);
 }
 
 .stats-trend .value {
   color: #000339;
   font-size: 2.6rem;
-  font-weight: 500;
-  line-height: 1;
+  font-weight: 700;
+  line-height: 26px; /* 100% */
   letter-spacing: 0.26px;
 }
 
@@ -412,13 +418,13 @@ a {
   flex-shrink: 0;
 }
 
-.stats-trend .desc {
+.stats .stats-trend .desc {
   margin-top: 8px;
   width: 194px;
   color: #a7a7a7;
   font-size: 1.2rem;
   font-weight: 400;
-  line-height: 18px; /* 150% */
+  line-height: 1.5; /* 150% */
 }
 
 .stats-trend .serapate {
@@ -630,10 +636,11 @@ a {
   width: 28px;
   height: 28px;
   margin-right: 13px;
+  background: #f9f9f9;
 }
 
 .footer .social-link:hover {
-  background: #584f4f;
+  background: #dad8d8;
 }
 
 .footer .row-bottom {
