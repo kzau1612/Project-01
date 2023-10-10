@@ -58,16 +58,27 @@ a {
 }
 
 /*====== Header ====== */
-.header {
+
+.fixed-header {
   background: #e6f0ff;
-  height: 100vh;
+  padding-top: 26px;
+  position: sticky;
+  top: -26px;
+  z-index: 1;
+}
+
+.hero-wrap {
+  background: #e6f0ff;
+  height: calc(100vh - 90px);
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar {
   display: flex;
   align-items: center;
-  padding-top: 38px;
+  padding: 12px 0;
 }
 
 .navbar ul {
@@ -130,7 +141,6 @@ a {
 }
 
 .hero .desc {
-  word-break: break-all;
   margin-top: 30px;
   color: #5a6473;
   font-size: 18px;
@@ -651,8 +661,11 @@ a {
   align-items: center;
   width: 28px;
   height: 28px;
-  margin-right: 13px;
   background: #f9f9f9;
+}
+
+.footer .social-link + .social-link {
+  margin-left: 16px;
 }
 
 .footer .social-link:hover {
