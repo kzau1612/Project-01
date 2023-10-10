@@ -78,6 +78,7 @@ a {
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .navbar {
@@ -121,15 +122,11 @@ a {
   margin-left: 18px;
 }
 
-.hero {
-  margin-top: 130px;
-}
-
-.hero .info {
+.hero-wrap .info {
   width: 51%;
 }
 
-.hero .sub-title {
+.hero-wrap .sub-title {
   color: #687690;
   font-size: 1.8rem;
   font-weight: 500;
@@ -137,7 +134,7 @@ a {
   letter-spacing: 0.18px;
 }
 
-.hero .title {
+.hero-wrap .title {
   color: #000336;
   font-size: 6.4rem;
   font-weight: 700;
@@ -145,7 +142,7 @@ a {
   margin-top: 8px;
 }
 
-.hero .desc {
+.hero-wrap .desc {
   margin-top: 30px;
   color: #5a6473;
   font-size: 18px;
